@@ -1,32 +1,19 @@
 {
   "name": "money-reminder-ai",
+  "private": true,
   "version": "2.0.0",
-  "description": "💰 Track expenses, income, debts, bills & budgets with AI insights",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "serve": "python -m http.server 8000"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.3.0"
-  },
-  "keywords": [
-    "finance",
-    "budget",
-    "expenses",
-    "income",
-    "ai",
-    "pwa",
-    "money",
-    "tracker"
-  ],
-  "author": "malikmohdsalman20",
-  "license": "MIT"
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.0.0"
+  }
 }
